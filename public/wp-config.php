@@ -79,15 +79,6 @@ if ( isset( $_ENV['WP_DB_URL'] ) ) {
 	$_dbsettings = parse_url( 'mysql://herokuwp:password@127.0.0.1/herokuwp' );
 }
 
-/* Multisite */
-define( 'WP_ALLOW_MULTISITE', true );
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'stuff-we-do.herokuapp.com');
-define('PATH_CURRENT_SITE', '/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
 define( 'DB_NAME',              trim( $_dbsettings['path'], '/' ) );
 define( 'DB_USER',              $_dbsettings['user']              );
 define( 'DB_PASSWORD',          $_dbsettings['pass']              );
