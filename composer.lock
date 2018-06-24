@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ee831b4fc4434cca3dfc41ddf7ddd06",
+    "content-hash": "db39b2e2c5b053a27229f32946f68cfa",
     "packages": [
         {
             "name": "WordPress/WordPress",
-            "version": "4.9.1",
+            "version": "4.9.6",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.9.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
