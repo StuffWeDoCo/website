@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "wpackagist-theme/olsen-light": "1.2",
         "ext-gd": "*",
         "php": "7.*",
 
